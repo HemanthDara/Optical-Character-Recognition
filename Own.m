@@ -14,7 +14,7 @@ g=0;
 x=0;
 comp={};
 while k==0
-    [fl re]=lines(re);
+    [fl re] = lines(re);
     [L Ne] = bwlabel(fl);
     for n=1:Ne
         i=fl;
@@ -113,7 +113,3 @@ for i=1:x
         real_targets(26,i)=1;
     end
 end
-% Max=max(real_inputs,[],2);
-% Min=min(real_inputs,[],2);
-% real_inputs=mapminmax(real_inputs,0,15);
-% real_inputs=round(real_inputs);
