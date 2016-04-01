@@ -1,9 +1,5 @@
 function [on] =zones(i)
 % i=imread('AI.jpg');
-i=imresize(i,[10,10]);
-% i=rgb2gray(i);
-% threshold = graythresh(i);
-% i=im2bw(i,threshold);
 im=imresize(i,[90 60]);
 parts={};
 on=[];
