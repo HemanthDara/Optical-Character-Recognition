@@ -1,1 +1,2 @@
 # Optical-Character-Recognition
+OCR code is written using MATLAB. Each character is extracted from the group of characters present in the input image. Then each character is resized to 90x60 and then it is divided into 10x10 blocks called zones. From each 10x10 block, features are extracted and hence some features are used to represend a certain alphabet. These features are used in the training also. Training is done using neural network toolbox present in MATLAB. After training, this trained net is used to identify every character present in the input image.
